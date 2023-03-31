@@ -191,3 +191,17 @@ body {
     margin-top: 0;
     margin-bottom: 8px;
 }
+
+/************ Footer ************/ 
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 2vh 0;
+}
+
+.footer-txt { 
+    color: #F9FAF8;
+}
