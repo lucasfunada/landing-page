@@ -116,3 +116,22 @@ body {
     width: 180px;
 }
 
+/************ Quote ************/ 
+
+.quote-container {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 10vh 20vw;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.author {
+    font-size: 24px;
+    align-self: flex-end;
+}
