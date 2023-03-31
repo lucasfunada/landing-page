@@ -32,6 +32,10 @@ body {
     font-size: 18px;
 }
 
+.link a:hover {
+    color: #b8babd;
+}
+
 /************ Hero Styles ************/ 
 
 .hero {
@@ -129,9 +133,16 @@ body {
     font-size: 36px;
     font-weight: light;
     color: #1F2937;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.quote:hover {
+    text-decoration: underline;
 }
 
 .author {
     font-size: 24px;
     align-self: flex-end;
 }
+
