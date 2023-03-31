@@ -5,6 +5,8 @@ body {
     margin: 0;
 }
 
+/************ Header Styles ************/ 
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -30,3 +32,47 @@ body {
     font-size: 18px;
 }
 
+/************ Hero Styles ************/ 
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    padding: 5% 10%;
+    gap: 16px;
+}
+
+.hero-txt {
+    flex: 1 600px;
+}
+
+.hero h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin: 0;
+}
+
+.hero p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero button {
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 10px 12px;
+    border-style: none;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.hero-img-container {
+    flex: 1 800px;
+    max-width: 1000px;
+}
+
+.hero-img {
+    width: 100%;
+}
