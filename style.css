@@ -76,3 +76,38 @@ body {
 .hero-img {
     width: 100%;
 }
+
+/************ Members ************/ 
+
+.member {
+    padding-top: 5vh;
+    padding-bottom: 12vh;
+}
+
+.member h2 {
+    font-size: 36px;
+    text-align: center;
+    color: #1F2937;
+    margin-top: 0;
+    margin-bottom: 5vh;
+}
+
+.member-flex {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.member-container p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.member-container img {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    height: 180px;
+    width: 180px;
+}
+
