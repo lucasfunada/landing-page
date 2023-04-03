@@ -157,9 +157,7 @@ body {
     flex-wrap: wrap;
 }
 
-.ad-img { 
-    border: 3px solid #3882F6;
-    border-radius: 10px;
+.ad-img {
     height: 100%;
     max-width: 500px;
 }
